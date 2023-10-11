@@ -1,0 +1,40 @@
+CRITICAL - 2022-08-21 19:45:17 --> File "machine/hasil/" does not exist.
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Shared\File.php on line 149.
+ 1 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Reader\Xlsx.php(393): PhpOffice\PhpSpreadsheet\Shared\File::assertFile('FCPATH\\machine\\hasil', '_rels/.rels')
+ 2 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Reader\BaseReader.php(166): PhpOffice\PhpSpreadsheet\Reader\Xlsx->loadSpreadsheetFromFile('FCPATH\\machine\\hasil')
+ 3 APPPATH\Controllers\Neighbors.php(71): PhpOffice\PhpSpreadsheet\Reader\BaseReader->load('FCPATH\\machine\\hasil')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Neighbors->result()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Neighbors))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-21 19:45:58 --> File "machine/hasil/" does not exist.
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Shared\File.php on line 149.
+ 1 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Reader\Xlsx.php(393): PhpOffice\PhpSpreadsheet\Shared\File::assertFile('FCPATH\\machine\\hasil', '_rels/.rels')
+ 2 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Reader\BaseReader.php(166): PhpOffice\PhpSpreadsheet\Reader\Xlsx->loadSpreadsheetFromFile('FCPATH\\machine\\hasil')
+ 3 APPPATH\Controllers\Neighbors.php(71): PhpOffice\PhpSpreadsheet\Reader\BaseReader->load('FCPATH\\machine\\hasil')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Neighbors->result()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Neighbors))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-21 19:46:03 --> File "machine/hasil/" does not exist.
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Shared\File.php on line 149.
+ 1 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Reader\Xlsx.php(393): PhpOffice\PhpSpreadsheet\Shared\File::assertFile('FCPATH\\machine\\hasil', '_rels/.rels')
+ 2 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Reader\BaseReader.php(166): PhpOffice\PhpSpreadsheet\Reader\Xlsx->loadSpreadsheetFromFile('FCPATH\\machine\\hasil')
+ 3 APPPATH\Controllers\Neighbors.php(71): PhpOffice\PhpSpreadsheet\Reader\BaseReader->load('FCPATH\\machine\\hasil')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Neighbors->result()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Neighbors))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-21 19:46:14 --> File "machine/hasil/" does not exist.
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Shared\File.php on line 149.
+ 1 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Reader\Xlsx.php(393): PhpOffice\PhpSpreadsheet\Shared\File::assertFile('FCPATH\\machine\\hasil', '_rels/.rels')
+ 2 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Reader\BaseReader.php(166): PhpOffice\PhpSpreadsheet\Reader\Xlsx->loadSpreadsheetFromFile('FCPATH\\machine\\hasil')
+ 3 APPPATH\Controllers\Neighbors.php(71): PhpOffice\PhpSpreadsheet\Reader\BaseReader->load('FCPATH\\machine\\hasil')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Neighbors->result()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Neighbors))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

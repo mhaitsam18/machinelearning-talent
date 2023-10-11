@@ -1,0 +1,22 @@
+CRITICAL - 2022-07-28 20:05:10 --> File "machine/hasil/hasil_ujicoba_4.xlsx" does not exist.
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Shared\File.php on line 149.
+ 1 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Reader\Xlsx.php(393): PhpOffice\PhpSpreadsheet\Shared\File::assertFile('machine/hasil/hasil_ujicoba_4.xlsx', '_rels/.rels')
+ 2 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Reader\BaseReader.php(166): PhpOffice\PhpSpreadsheet\Reader\Xlsx->loadSpreadsheetFromFile('machine/hasil/hasil_ujicoba_4.xlsx')
+ 3 APPPATH\Controllers\Result.php(44): PhpOffice\PhpSpreadsheet\Reader\BaseReader->load('machine/hasil/hasil_ujicoba_4.xlsx')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->show('99')
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-28 21:18:13 --> Undefined array key 2
+in APPPATH\Views\pages\show.php on line 40.
+ 1 APPPATH\Views\pages\show.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'APPPATH\\Views\\pages\\show.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\show.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/show', [], true)
+ 5 APPPATH\Controllers\Result.php(48): view('pages/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->show('119')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

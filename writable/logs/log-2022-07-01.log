@@ -1,0 +1,533 @@
+CRITICAL - 2022-07-01 09:57:22 --> Attempt to read property "result" on array
+in APPPATH\Views\pages\history.php on line 44.
+ 1 APPPATH\Views\pages\history.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "result" on array', 'APPPATH\\Views\\pages\\history.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\history.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/history', [], true)
+ 5 APPPATH\Controllers\Result.php(18): view('pages/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->history()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-01 09:59:33 --> Attempt to read property "resu" on array
+in APPPATH\Views\pages\history.php on line 44.
+ 1 APPPATH\Views\pages\history.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "resu" on array', 'APPPATH\\Views\\pages\\history.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\history.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/history', [], true)
+ 5 APPPATH\Controllers\Result.php(18): view('pages/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->history()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-01 10:00:09 --> Attempt to read property "resu" on array
+in APPPATH\Views\pages\history.php on line 44.
+ 1 APPPATH\Views\pages\history.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "resu" on array', 'APPPATH\\Views\\pages\\history.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\history.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/history', [], true)
+ 5 APPPATH\Controllers\Result.php(18): view('pages/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->history()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-01 10:00:11 --> Attempt to read property "resu" on array
+in APPPATH\Views\pages\history.php on line 44.
+ 1 APPPATH\Views\pages\history.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "resu" on array', 'APPPATH\\Views\\pages\\history.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\history.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/history', [], true)
+ 5 APPPATH\Controllers\Result.php(18): view('pages/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->history()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-01 10:00:12 --> Attempt to read property "resu" on array
+in APPPATH\Views\pages\history.php on line 44.
+ 1 APPPATH\Views\pages\history.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "resu" on array', 'APPPATH\\Views\\pages\\history.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\history.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/history', [], true)
+ 5 APPPATH\Controllers\Result.php(18): view('pages/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->history()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-01 10:00:40 --> Attempt to read property "file" on array
+in APPPATH\Views\pages\history.php on line 44.
+ 1 APPPATH\Views\pages\history.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "file" on array', 'APPPATH\\Views\\pages\\history.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\history.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/history', [], true)
+ 5 APPPATH\Controllers\Result.php(18): view('pages/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->history()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-01 10:03:05 --> Cannot use object of type stdClass as array
+in APPPATH\Views\pages\history.php on line 50.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/history', [], true)
+ 4 APPPATH\Controllers\Result.php(18): view('pages/history', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->history()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-01 11:06:18 --> Unknown column 'ujicoba_1.xlsx' in 'where clause'
+CRITICAL - 2022-07-01 11:06:18 --> Unknown column 'ujicoba_1.xlsx' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT (SELECT result FROM predicts WHERE name = ujicoba_1.xlsx)
+FROM `predicts`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (SELECT result FROM predicts WHERE name = ujicoba_1.xlsx)
+FROM `predicts`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (SELECT result FROM predicts WHERE name = ujicoba_1.xlsx)
+FROM `predicts`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT (SELECT result FROM predicts WHERE name = ujicoba_1.xlsx)
+FROM `predicts`', [], false)
+ 5 APPPATH\Controllers\Neighbors.php(72): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Neighbors->result()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Neighbors))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-01 15:39:03 --> Array to string conversion
+in APPPATH\Controllers\Result.php on line 42.
+ 1 APPPATH\Controllers\Result.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Result.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->show('34')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-01 15:39:37 --> Array to string conversion
+in APPPATH\Controllers\Result.php on line 39.
+ 1 APPPATH\Controllers\Result.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Result.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->show('34')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-01 15:40:26 --> Array to string conversion
+in APPPATH\Controllers\Result.php on line 39.
+ 1 APPPATH\Controllers\Result.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Result.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->show('33')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-01 15:41:06 --> Array to string conversion
+in APPPATH\Controllers\Result.php on line 39.
+ 1 APPPATH\Controllers\Result.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Result.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->show('37')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-01 15:42:36 --> Unsupported operand types: string + array
+in APPPATH\Controllers\Result.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->show('33')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-01 15:45:30 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Result.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->show('33')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-01 15:48:54 --> PhpOffice\PhpSpreadsheet\Reader\BaseReader::load(): Argument #1 ($filename) must be of type string, array given, called in C:\xampp\htdocs\proyekakhir\app\Controllers\Result.php on line 42
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Reader\BaseReader.php on line 161.
+ 1 APPPATH\Controllers\Result.php(42): PhpOffice\PhpSpreadsheet\Reader\BaseReader->load([...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->show('33')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-01 15:49:12 --> PhpOffice\PhpSpreadsheet\Reader\BaseReader::load(): Argument #1 ($filename) must be of type string, array given, called in C:\xampp\htdocs\proyekakhir\app\Controllers\Result.php on line 42
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Reader\BaseReader.php on line 161.
+ 1 APPPATH\Controllers\Result.php(42): PhpOffice\PhpSpreadsheet\Reader\BaseReader->load([...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->show('34')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-01 15:49:47 --> Array to string conversion
+in APPPATH\Controllers\Result.php on line 42.
+ 1 APPPATH\Controllers\Result.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Result.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->show('34')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-01 15:49:48 --> Array to string conversion
+in APPPATH\Controllers\Result.php on line 42.
+ 1 APPPATH\Controllers\Result.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Result.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->show('34')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-01 15:49:49 --> Array to string conversion
+in APPPATH\Controllers\Result.php on line 42.
+ 1 APPPATH\Controllers\Result.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Result.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->show('34')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-01 15:49:49 --> Array to string conversion
+in APPPATH\Controllers\Result.php on line 42.
+ 1 APPPATH\Controllers\Result.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Result.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->show('34')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-01 15:49:49 --> Array to string conversion
+in APPPATH\Controllers\Result.php on line 42.
+ 1 APPPATH\Controllers\Result.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Result.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->show('34')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-01 15:50:08 --> Array to string conversion
+in APPPATH\Controllers\Result.php on line 42.
+ 1 APPPATH\Controllers\Result.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Result.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->show('34')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-01 15:50:09 --> Array to string conversion
+in APPPATH\Controllers\Result.php on line 42.
+ 1 APPPATH\Controllers\Result.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Result.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->show('34')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-01 15:50:09 --> Array to string conversion
+in APPPATH\Controllers\Result.php on line 42.
+ 1 APPPATH\Controllers\Result.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Result.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->show('34')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-01 15:50:09 --> Array to string conversion
+in APPPATH\Controllers\Result.php on line 42.
+ 1 APPPATH\Controllers\Result.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Result.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->show('34')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-01 15:50:09 --> Array to string conversion
+in APPPATH\Controllers\Result.php on line 42.
+ 1 APPPATH\Controllers\Result.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Result.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->show('34')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-01 15:50:10 --> Array to string conversion
+in APPPATH\Controllers\Result.php on line 42.
+ 1 APPPATH\Controllers\Result.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Result.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->show('34')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-01 15:50:10 --> Array to string conversion
+in APPPATH\Controllers\Result.php on line 42.
+ 1 APPPATH\Controllers\Result.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Result.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->show('34')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-01 15:50:10 --> Array to string conversion
+in APPPATH\Controllers\Result.php on line 42.
+ 1 APPPATH\Controllers\Result.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Result.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->show('34')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-01 15:50:10 --> Array to string conversion
+in APPPATH\Controllers\Result.php on line 42.
+ 1 APPPATH\Controllers\Result.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Result.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->show('34')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-01 15:50:10 --> Array to string conversion
+in APPPATH\Controllers\Result.php on line 42.
+ 1 APPPATH\Controllers\Result.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Result.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->show('34')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-01 15:50:10 --> Array to string conversion
+in APPPATH\Controllers\Result.php on line 42.
+ 1 APPPATH\Controllers\Result.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Result.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->show('34')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-01 15:50:11 --> Array to string conversion
+in APPPATH\Controllers\Result.php on line 42.
+ 1 APPPATH\Controllers\Result.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Result.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->show('34')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-01 15:50:11 --> Array to string conversion
+in APPPATH\Controllers\Result.php on line 42.
+ 1 APPPATH\Controllers\Result.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Result.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->show('34')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-01 15:50:14 --> Array to string conversion
+in APPPATH\Controllers\Result.php on line 42.
+ 1 APPPATH\Controllers\Result.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Result.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->show('34')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-01 16:02:07 --> Array to string conversion
+in APPPATH\Controllers\Result.php on line 39.
+ 1 APPPATH\Controllers\Result.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Result.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->show('33')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-01 16:16:31 --> Undefined variable $hasil
+in APPPATH\Views\pages\show.php on line 34.
+ 1 APPPATH\Views\pages\show.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hasil', 'APPPATH\\Views\\pages\\show.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\show.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/show', [], true)
+ 5 APPPATH\Controllers\Result.php(57): view('pages/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->show('34')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-01 16:23:55 --> Undefined array key "NIP"
+in APPPATH\Views\pages\show.php on line 37.
+ 1 APPPATH\Views\pages\show.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "NIP"', 'APPPATH\\Views\\pages\\show.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\show.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/show', [], true)
+ 5 APPPATH\Controllers\Result.php(58): view('pages/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->show('34')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-01 16:24:05 --> Undefined array key "nip"
+in APPPATH\Views\pages\show.php on line 37.
+ 1 APPPATH\Views\pages\show.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nip"', 'APPPATH\\Views\\pages\\show.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\show.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/show', [], true)
+ 5 APPPATH\Controllers\Result.php(58): view('pages/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->show('34')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-01 16:27:19 --> Table 'talent.results' doesn't exist
+CRITICAL - 2022-07-01 16:27:19 --> Table 'talent.results' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `results`
+WHERE `results`.`id` = \'34\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `results`
+WHERE `results`.`id` = \'34\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `results`
+WHERE `results`.`id` = \'34\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `results`
+WHERE `results`.`id` = :results.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(181): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, '34')
+ 7 APPPATH\Controllers\Result.php(31): CodeIgniter\BaseModel->find('34')
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->download('34')
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-01 16:27:34 --> Table 'talent.results' doesn't exist
+CRITICAL - 2022-07-01 16:27:34 --> Table 'talent.results' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `results`
+WHERE `results`.`id` = \'37\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `results`
+WHERE `results`.`id` = \'37\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `results`
+WHERE `results`.`id` = \'37\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `results`
+WHERE `results`.`id` = :results.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(181): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, '37')
+ 7 APPPATH\Controllers\Result.php(31): CodeIgniter\BaseModel->find('37')
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->download('37')
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-01 16:29:06 --> Table 'talent.results' doesn't exist
+CRITICAL - 2022-07-01 16:29:06 --> Table 'talent.results' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `results`
+WHERE `results`.`id` = \'33\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `results`
+WHERE `results`.`id` = \'33\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `results`
+WHERE `results`.`id` = \'33\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `results`
+WHERE `results`.`id` = :results.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(181): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, '33')
+ 7 APPPATH\Controllers\Result.php(31): CodeIgniter\BaseModel->find('33')
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->download('33')
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-01 16:29:49 --> File not found: berkas/hasil/ujicoba_1.xlsx
+in SYSTEMPATH\Files\File.php on line 46.
+ 1 SYSTEMPATH\Files\File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('berkas/hasil/ujicoba_1.xlsx')
+ 2 SYSTEMPATH\HTTP\DownloadResponse.php(97): CodeIgniter\Files\File->__construct('berkas/hasil/ujicoba_1.xlsx', true)
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(779): CodeIgniter\HTTP\DownloadResponse->setFilePath('berkas/hasil/ujicoba_1.xlsx')
+ 4 APPPATH\Controllers\Result.php(32): CodeIgniter\HTTP\Response->download('ujicoba_1.xlsx', null)
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->download('33')
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-01 16:30:04 --> File not found: berkas/hasil/ujicoba_4.xlsx
+in SYSTEMPATH\Files\File.php on line 46.
+ 1 SYSTEMPATH\Files\File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('berkas/hasil/ujicoba_4.xlsx')
+ 2 SYSTEMPATH\HTTP\DownloadResponse.php(97): CodeIgniter\Files\File->__construct('berkas/hasil/ujicoba_4.xlsx', true)
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(779): CodeIgniter\HTTP\DownloadResponse->setFilePath('berkas/hasil/ujicoba_4.xlsx')
+ 4 APPPATH\Controllers\Result.php(32): CodeIgniter\HTTP\Response->download('ujicoba_4.xlsx', null)
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->download('37')
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-01 16:30:25 --> File not found: berkas/hasil/ujicoba_2.xlsx
+in SYSTEMPATH\Files\File.php on line 46.
+ 1 SYSTEMPATH\Files\File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('berkas/hasil/ujicoba_2.xlsx')
+ 2 SYSTEMPATH\HTTP\DownloadResponse.php(97): CodeIgniter\Files\File->__construct('berkas/hasil/ujicoba_2.xlsx', true)
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(779): CodeIgniter\HTTP\DownloadResponse->setFilePath('berkas/hasil/ujicoba_2.xlsx')
+ 4 APPPATH\Controllers\Result.php(32): CodeIgniter\HTTP\Response->download('ujicoba_2.xlsx', null)
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->download('34')
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-01 16:30:30 --> File not found: berkas/hasil/ujicoba_2.xlsx
+in SYSTEMPATH\Files\File.php on line 46.
+ 1 SYSTEMPATH\Files\File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('berkas/hasil/ujicoba_2.xlsx')
+ 2 SYSTEMPATH\HTTP\DownloadResponse.php(97): CodeIgniter\Files\File->__construct('berkas/hasil/ujicoba_2.xlsx', true)
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(779): CodeIgniter\HTTP\DownloadResponse->setFilePath('berkas/hasil/ujicoba_2.xlsx')
+ 4 APPPATH\Controllers\Result.php(32): CodeIgniter\HTTP\Response->download('ujicoba_2.xlsx', null)
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->download('34')
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-01 16:49:17 --> Unsupported operand types: array + int
+in APPPATH\Controllers\Result.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->show('44')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-01 16:49:36 --> Unsupported operand types: string + int
+in APPPATH\Views\pages\show.php on line 37.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/show', [], true)
+ 4 APPPATH\Controllers\Result.php(48): view('pages/show', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->show('44')
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-01 16:49:36 --> Unsupported operand types: string + int
+in APPPATH\Views\pages\show.php on line 37.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/show', [], true)
+ 4 APPPATH\Controllers\Result.php(48): view('pages/show', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->show('44')
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-01 16:49:37 --> Unsupported operand types: string + int
+in APPPATH\Views\pages\show.php on line 37.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/show', [], true)
+ 4 APPPATH\Controllers\Result.php(48): view('pages/show', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->show('44')
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-01 16:50:34 --> Unsupported operand types: array - int
+in APPPATH\Views\pages\show.php on line 35.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/show', [], true)
+ 4 APPPATH\Controllers\Result.php(48): view('pages/show', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->show('44')
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-01 16:50:35 --> Unsupported operand types: array - int
+in APPPATH\Views\pages\show.php on line 35.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/show', [], true)
+ 4 APPPATH\Controllers\Result.php(48): view('pages/show', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->show('44')
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

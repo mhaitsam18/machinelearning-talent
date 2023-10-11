@@ -1,0 +1,532 @@
+CRITICAL - 2022-06-28 00:20:25 --> Attempt to read property "name" on array
+in APPPATH\Controllers\Dataset.php on line 20.
+ 1 APPPATH\Controllers\Dataset.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on array', 'APPPATH\\Controllers\\Dataset.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Dataset->download('11')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataset))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-28 00:20:45 --> File not found: berkas/dataset/Dataset.xlsx
+in SYSTEMPATH\Files\File.php on line 46.
+ 1 SYSTEMPATH\Files\File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('berkas/dataset/Dataset.xlsx')
+ 2 SYSTEMPATH\HTTP\DownloadResponse.php(97): CodeIgniter\Files\File->__construct('berkas/dataset/Dataset.xlsx', true)
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(779): CodeIgniter\HTTP\DownloadResponse->setFilePath('berkas/dataset/Dataset.xlsx')
+ 4 APPPATH\Controllers\Dataset.php(20): CodeIgniter\HTTP\Response->download('Dataset.xlsx', null)
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Dataset->download('10')
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataset))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-06-28 02:00:18 --> Unknown column 'results.id_predict' in 'on clause'
+CRITICAL - 2022-06-28 02:00:18 --> Unknown column 'results.id_predict' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `results`.`id` as `idr`, `results`.`name` as `result`, `algoritma`, `users`.`username` as `user`, `predicts`.`name` as `data`
+FROM `results`
+JOIN `predicts` ON `predicts`.`id` = `results`.`id_predict`
+JOIN `users` ON `users`.`id` = `predicts`.`id_user`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `results`.`id` as `idr`, `results`.`name` as `result`, `algoritma`, `users`.`username` as `user`, `predicts`.`name` as `data`
+FROM `results`
+JOIN `predicts` ON `predicts`.`id` = `results`.`id_predict`
+JOIN `users` ON `users`.`id` = `predicts`.`id_user`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `results`.`id` as `idr`, `results`.`name` as `result`, `algoritma`, `users`.`username` as `user`, `predicts`.`name` as `data`
+FROM `results`
+JOIN `predicts` ON `predicts`.`id` = `results`.`id_predict`
+JOIN `users` ON `users`.`id` = `predicts`.`id_user`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `results`.`id` as `idr`, `results`.`name` as `result`, `algoritma`, `users`.`username` as `user`, `predicts`.`name` as `data`
+FROM `results`
+JOIN `predicts` ON `predicts`.`id` = `results`.`id_predict`
+JOIN `users` ON `users`.`id` = `predicts`.`id_user`', [], false)
+ 5 APPPATH\Models\ResultModel.php(49): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Result.php(16): App\Models\ResultModel->getAll()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->history()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-28 02:02:57 --> Call to undefined method App\Models\ResultModel::getResult
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Result.php(16): CodeIgniter\Model->__call('getResult', [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->history()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-28 02:08:01 --> Attempt to read property "data" on array
+in APPPATH\Views\pages\history.php on line 56.
+ 1 APPPATH\Views\pages\history.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "data" on array', 'APPPATH\\Views\\pages\\history.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\history.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/history', [], true)
+ 5 APPPATH\Controllers\Result.php(18): view('pages/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->history()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-28 02:46:01 -->  is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 314.
+ 1 SYSTEMPATH\Validation\Validation.php(314): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('ROOTPATH\\public')
+ 2 SYSTEMPATH\Validation\Validation.php(173): CodeIgniter\Validation\Validation->processRules('Profile', 'Profile', null, [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\User.php(27): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->edit('2')
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-28 02:46:08 -->  is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 314.
+ 1 SYSTEMPATH\Validation\Validation.php(314): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('ROOTPATH\\public')
+ 2 SYSTEMPATH\Validation\Validation.php(173): CodeIgniter\Validation\Validation->processRules('Profile', 'Profile', null, [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\User.php(27): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->edit('2')
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-28 02:55:09 --> Attempt to read property "name" on array
+in APPPATH\Views\user\edit.php on line 48.
+ 1 APPPATH\Views\user\edit.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on array', 'APPPATH\\Views\\user\\edit.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/edit', [], true)
+ 5 APPPATH\Controllers\User.php(26): view('user/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-28 03:48:37 --> Undefined variable $validation
+in APPPATH\Views\user\edit.php on line 85.
+ 1 APPPATH\Views\user\edit.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'APPPATH\\Views\\user\\edit.php', 85)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user/edit', [], true)
+ 5 APPPATH\Controllers\User.php(28): view('user/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\User->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-28 04:50:27 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2334.
+ 1 SYSTEMPATH\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete(null, false)
+ 3 APPPATH\Controllers\Dataset.php(20): CodeIgniter\BaseModel->delete(null)
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Dataset->delete()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataset))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-28 04:54:27 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2334.
+ 1 SYSTEMPATH\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete(null, false)
+ 3 APPPATH\Controllers\Dataset.php(20): CodeIgniter\BaseModel->delete(null)
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Dataset->delete()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataset))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-28 08:14:05 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\pages\dashboard.php on line 93.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/dashboard', [], true)
+ 4 APPPATH\Controllers\Pages.php(19): view('pages/dashboard')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->dashboard()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-28 08:15:04 --> Array to string conversion
+in APPPATH\Views\pages\dashboard.php on line 93.
+ 1 APPPATH\Views\pages\dashboard.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\pages\\dashboard.php', 93)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/dashboard', [], true)
+ 5 APPPATH\Controllers\Pages.php(19): view('pages/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-28 08:15:05 --> Array to string conversion
+in APPPATH\Views\pages\dashboard.php on line 93.
+ 1 APPPATH\Views\pages\dashboard.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\pages\\dashboard.php', 93)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/dashboard', [], true)
+ 5 APPPATH\Controllers\Pages.php(19): view('pages/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-28 08:15:25 --> Array to string conversion
+in APPPATH\Views\pages\dashboard.php on line 93.
+ 1 APPPATH\Views\pages\dashboard.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\pages\\dashboard.php', 93)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/dashboard', [], true)
+ 5 APPPATH\Controllers\Pages.php(19): view('pages/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-28 08:15:26 --> Array to string conversion
+in APPPATH\Views\pages\dashboard.php on line 93.
+ 1 APPPATH\Views\pages\dashboard.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\pages\\dashboard.php', 93)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/dashboard', [], true)
+ 5 APPPATH\Controllers\Pages.php(19): view('pages/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-28 08:15:52 --> Array to string conversion
+in APPPATH\Views\pages\dashboard.php on line 93.
+ 1 APPPATH\Views\pages\dashboard.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\pages\\dashboard.php', 93)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/dashboard', [], true)
+ 5 APPPATH\Controllers\Pages.php(19): view('pages/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-28 08:15:53 --> Array to string conversion
+in APPPATH\Views\pages\dashboard.php on line 93.
+ 1 APPPATH\Views\pages\dashboard.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\pages\\dashboard.php', 93)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/dashboard', [], true)
+ 5 APPPATH\Controllers\Pages.php(19): view('pages/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-28 08:15:53 --> Array to string conversion
+in APPPATH\Views\pages\dashboard.php on line 93.
+ 1 APPPATH\Views\pages\dashboard.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\pages\\dashboard.php', 93)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/dashboard', [], true)
+ 5 APPPATH\Controllers\Pages.php(19): view('pages/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-28 08:15:54 --> Array to string conversion
+in APPPATH\Views\pages\dashboard.php on line 93.
+ 1 APPPATH\Views\pages\dashboard.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\pages\\dashboard.php', 93)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/dashboard', [], true)
+ 5 APPPATH\Controllers\Pages.php(19): view('pages/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-28 08:15:54 --> Array to string conversion
+in APPPATH\Views\pages\dashboard.php on line 93.
+ 1 APPPATH\Views\pages\dashboard.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\pages\\dashboard.php', 93)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/dashboard', [], true)
+ 5 APPPATH\Controllers\Pages.php(19): view('pages/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-28 08:16:31 --> Array to string conversion
+in APPPATH\Views\pages\dashboard.php on line 93.
+ 1 APPPATH\Views\pages\dashboard.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\pages\\dashboard.php', 93)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/dashboard', [], true)
+ 5 APPPATH\Controllers\Pages.php(19): view('pages/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-28 08:16:31 --> Array to string conversion
+in APPPATH\Views\pages\dashboard.php on line 93.
+ 1 APPPATH\Views\pages\dashboard.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\pages\\dashboard.php', 93)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/dashboard', [], true)
+ 5 APPPATH\Controllers\Pages.php(19): view('pages/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-28 08:16:32 --> Array to string conversion
+in APPPATH\Views\pages\dashboard.php on line 93.
+ 1 APPPATH\Views\pages\dashboard.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\pages\\dashboard.php', 93)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/dashboard', [], true)
+ 5 APPPATH\Controllers\Pages.php(19): view('pages/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-28 08:16:32 --> Array to string conversion
+in APPPATH\Views\pages\dashboard.php on line 93.
+ 1 APPPATH\Views\pages\dashboard.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\pages\\dashboard.php', 93)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/dashboard', [], true)
+ 5 APPPATH\Controllers\Pages.php(19): view('pages/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-28 08:16:32 --> Array to string conversion
+in APPPATH\Views\pages\dashboard.php on line 93.
+ 1 APPPATH\Views\pages\dashboard.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\pages\\dashboard.php', 93)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/dashboard', [], true)
+ 5 APPPATH\Controllers\Pages.php(19): view('pages/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-28 08:16:32 --> Array to string conversion
+in APPPATH\Views\pages\dashboard.php on line 93.
+ 1 APPPATH\Views\pages\dashboard.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\pages\\dashboard.php', 93)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/dashboard', [], true)
+ 5 APPPATH\Controllers\Pages.php(19): view('pages/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-28 08:16:32 --> Array to string conversion
+in APPPATH\Views\pages\dashboard.php on line 93.
+ 1 APPPATH\Views\pages\dashboard.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\pages\\dashboard.php', 93)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/dashboard', [], true)
+ 5 APPPATH\Controllers\Pages.php(19): view('pages/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-28 08:16:33 --> Array to string conversion
+in APPPATH\Views\pages\dashboard.php on line 93.
+ 1 APPPATH\Views\pages\dashboard.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\pages\\dashboard.php', 93)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/dashboard', [], true)
+ 5 APPPATH\Controllers\Pages.php(19): view('pages/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-28 08:18:50 --> Array to string conversion
+in APPPATH\Views\pages\dashboard.php on line 93.
+ 1 APPPATH\Views\pages\dashboard.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\pages\\dashboard.php', 93)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/dashboard', [], true)
+ 5 APPPATH\Controllers\Pages.php(19): view('pages/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-06-28 10:18:08 --> Cannot delete or update a parent row: a foreign key constraint fails (`talent`.`predicts`, CONSTRAINT `predicts_ibfk_1` FOREIGN KEY (`id_user`) REFERENCES `users` (`id`))
+CRITICAL - 2022-06-28 10:18:08 --> Cannot delete or update a parent row: a foreign key constraint fails (`talent`.`predicts`, CONSTRAINT `predicts_ibfk_1` FOREIGN KEY (`id_user`) REFERENCES `users` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `users`
+WHERE `id` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `users`
+WHERE `id` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `users`
+WHERE `id` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2358): CodeIgniter\Database\BaseConnection->query('DELETE FROM `users`
+WHERE `id` = :id:', [...], false)
+ 5 APPPATH\Controllers\Admin.php(94): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->delete('2')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-06-28 10:23:11 --> Cannot delete or update a parent row: a foreign key constraint fails (`talent`.`predicts`, CONSTRAINT `predicts_ibfk_1` FOREIGN KEY (`id_user`) REFERENCES `users` (`id`))
+CRITICAL - 2022-06-28 10:23:11 --> Cannot delete or update a parent row: a foreign key constraint fails (`talent`.`predicts`, CONSTRAINT `predicts_ibfk_1` FOREIGN KEY (`id_user`) REFERENCES `users` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `users`
+WHERE `id` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `users`
+WHERE `id` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `users`
+WHERE `id` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2358): CodeIgniter\Database\BaseConnection->query('DELETE FROM `users`
+WHERE `id` = :id:', [...], false)
+ 5 APPPATH\Controllers\Admin.php(94): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->delete('2')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-06-28 10:25:59 --> Cannot delete or update a parent row: a foreign key constraint fails (`talent`.`predicts`, CONSTRAINT `predicts_ibfk_1` FOREIGN KEY (`id_user`) REFERENCES `users` (`id`))
+CRITICAL - 2022-06-28 10:25:59 --> Cannot delete or update a parent row: a foreign key constraint fails (`talent`.`predicts`, CONSTRAINT `predicts_ibfk_1` FOREIGN KEY (`id_user`) REFERENCES `users` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `users`
+WHERE `id` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `users`
+WHERE `id` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `users`
+WHERE `id` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2358): CodeIgniter\Database\BaseConnection->query('DELETE FROM `users`
+WHERE `id` = :id:', [...], false)
+ 5 APPPATH\Controllers\Admin.php(94): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->delete('2')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-06-28 10:38:46 --> Cannot delete or update a parent row: a foreign key constraint fails (`talent`.`predicts`, CONSTRAINT `predicts_ibfk_1` FOREIGN KEY (`id_user`) REFERENCES `users` (`id`))
+CRITICAL - 2022-06-28 10:38:46 --> Cannot delete or update a parent row: a foreign key constraint fails (`talent`.`predicts`, CONSTRAINT `predicts_ibfk_1` FOREIGN KEY (`id_user`) REFERENCES `users` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `users`
+WHERE `id` IN (\'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `users`
+WHERE `id` IN (\'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `users`
+WHERE `id` IN (\'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2358): CodeIgniter\Database\BaseConnection->query('DELETE FROM `users`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Admin.php(95): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->delete('2')
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-06-28 10:41:21 --> Cannot delete or update a parent row: a foreign key constraint fails (`talent`.`predicts`, CONSTRAINT `predicts_ibfk_1` FOREIGN KEY (`id_user`) REFERENCES `users` (`id`))
+CRITICAL - 2022-06-28 10:41:22 --> Cannot delete or update a parent row: a foreign key constraint fails (`talent`.`predicts`, CONSTRAINT `predicts_ibfk_1` FOREIGN KEY (`id_user`) REFERENCES `users` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `users`
+WHERE `id` IN (\'10\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `users`
+WHERE `id` IN (\'10\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `users`
+WHERE `id` IN (\'10\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2358): CodeIgniter\Database\BaseConnection->query('DELETE FROM `users`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Admin.php(95): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->delete('10')
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-28 10:49:26 --> Undefined variable $user
+in APPPATH\Views\admin\index.php on line 72.
+ 1 APPPATH\Views\admin\index.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\admin\\index.php', 72)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/index', [], true)
+ 5 APPPATH\Controllers\Admin.php(20): view('admin/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-28 10:49:27 --> Undefined variable $user
+in APPPATH\Views\admin\index.php on line 72.
+ 1 APPPATH\Views\admin\index.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\admin\\index.php', 72)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/index', [], true)
+ 5 APPPATH\Controllers\Admin.php(20): view('admin/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-28 10:49:32 --> Attempt to read property "role" on array
+in APPPATH\Views\admin\index.php on line 73.
+ 1 APPPATH\Views\admin\index.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "role" on array', 'APPPATH\\Views\\admin\\index.php', 73)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/index', [], true)
+ 5 APPPATH\Controllers\Admin.php(20): view('admin/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-28 10:50:55 --> Undefined array key "user"
+in APPPATH\Views\admin\index.php on line 73.
+ 1 APPPATH\Views\admin\index.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user"', 'APPPATH\\Views\\admin\\index.php', 73)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/index', [], true)
+ 5 APPPATH\Controllers\Admin.php(20): view('admin/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-28 10:50:56 --> Undefined array key "user"
+in APPPATH\Views\admin\index.php on line 73.
+ 1 APPPATH\Views\admin\index.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user"', 'APPPATH\\Views\\admin\\index.php', 73)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/index', [], true)
+ 5 APPPATH\Controllers\Admin.php(20): view('admin/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-28 10:51:48 --> Attempt to read property "id" on array
+in APPPATH\Views\admin\index.php on line 81.
+ 1 APPPATH\Views\admin\index.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Views\\admin\\index.php', 81)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/index', [], true)
+ 5 APPPATH\Controllers\Admin.php(20): view('admin/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Admin->users()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-28 12:07:11 --> Attempt to read property "profile" on null
+in APPPATH\Views\layout\templates.php on line 35.
+ 1 APPPATH\Views\layout\templates.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "profile" on null', 'APPPATH\\Views\\layout\\templates.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\templates.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/templates', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/dashboard', [], true)
+ 6 APPPATH\Controllers\Pages.php(19): view('pages/dashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->dashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

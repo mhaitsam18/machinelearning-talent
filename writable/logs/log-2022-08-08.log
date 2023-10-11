@@ -1,0 +1,55 @@
+ERROR - 2022-08-08 11:48:13 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-08-08 11:48:14 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 416.
+ 1 SYSTEMPATH\Database\BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `username` = :username:', [...], false)
+ 3 APPPATH\Controllers\Auth.php(25): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Auth->loginProcess()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-08 13:23:29 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-08-08 13:23:29 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 416.
+ 1 SYSTEMPATH\Database\BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `predicts`
+WHERE `algoritma` = :algoritma:', [...], false)
+ 3 APPPATH\Helpers\my_helper.php(12): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 4 APPPATH\Views\pages\dashboard.php(22): countalgo('randomforest')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\dashboard.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/dashboard', [], true)
+ 8 APPPATH\Controllers\Pages.php(19): view('pages/dashboard')
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->dashboard()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-08 22:58:22 --> File not found: machine/dataset/ujicoba.xlsx
+in SYSTEMPATH\Files\File.php on line 46.
+ 1 SYSTEMPATH\Files\File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('machine/dataset/ujicoba.xlsx')
+ 2 SYSTEMPATH\HTTP\DownloadResponse.php(97): CodeIgniter\Files\File->__construct('machine/dataset/ujicoba.xlsx', true)
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(779): CodeIgniter\HTTP\DownloadResponse->setFilePath('machine/dataset/ujicoba.xlsx')
+ 4 APPPATH\Controllers\Dataset.php(27): CodeIgniter\HTTP\Response->download('ujicoba.xlsx', null)
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Dataset->download('232')
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataset))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-08 23:18:50 --> File not found: machine/dataset/hasil_ujicoba_1.xlsx
+in SYSTEMPATH\Files\File.php on line 46.
+ 1 SYSTEMPATH\Files\File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('machine/dataset/hasil_ujicoba_1.xlsx')
+ 2 SYSTEMPATH\HTTP\DownloadResponse.php(97): CodeIgniter\Files\File->__construct('machine/dataset/hasil_ujicoba_1.xlsx', true)
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(779): CodeIgniter\HTTP\DownloadResponse->setFilePath('machine/dataset/hasil_ujicoba_1.xlsx')
+ 4 APPPATH\Controllers\Result.php(32): CodeIgniter\HTTP\Response->download('hasil_ujicoba_1.xlsx', null)
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Result->download('233')
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

@@ -1,0 +1,708 @@
+CRITICAL - 2022-06-27 06:24:54 -->  is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 314.
+ 1 SYSTEMPATH\Validation\Validation.php(314): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('ROOTPATH\\public')
+ 2 SYSTEMPATH\Validation\Validation.php(173): CodeIgniter\Validation\Validation->processRules('model', 'model', null, [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Models.php(34): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Models->create()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Models))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 06:25:42 -->  is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 314.
+ 1 SYSTEMPATH\Validation\Validation.php(314): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('ROOTPATH\\public')
+ 2 SYSTEMPATH\Validation\Validation.php(173): CodeIgniter\Validation\Validation->processRules('model', 'model', null, [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Models.php(34): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Models->create()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Models))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 07:05:21 --> Undefined property: App\Controllers\Models::$createModel
+in APPPATH\Controllers\Models.php on line 71.
+ 1 APPPATH\Controllers\Models.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Models::$createModel', 'APPPATH\\Controllers\\Models.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Models->delete('18')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Models))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 07:05:39 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Models.php on line 74.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Models->delete('18')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Models))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 07:06:09 --> Attempt to read property "name" on array
+in APPPATH\Views\model\index.php on line 58.
+ 1 APPPATH\Views\model\index.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on array', 'APPPATH\\Views\\model\\index.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\model\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('model/index', [], true)
+ 5 APPPATH\Controllers\Models.php(18): view('model/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Models->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Models))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 07:06:17 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Models.php on line 74.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Models->delete('18')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Models))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 07:07:02 --> Object of type stdClass is not callable
+in APPPATH\Controllers\Models.php on line 74.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Models->delete('18')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Models))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-06-27 07:29:41 --> Table 'models' already exists
+ERROR - 2022-06-27 07:31:26 --> Table 'models' already exists
+CRITICAL - 2022-06-27 08:32:28 --> _get_uri(): Argument #1 ($relativePath) must be of type string, null given, called in C:\xampp\htdocs\proyekakhir\vendor\codeigniter4\framework\system\Helpers\url_helper.php on line 87
+in SYSTEMPATH\Helpers\url_helper.php on line 31.
+ 1 SYSTEMPATH\Helpers\url_helper.php(87): _get_uri(null, Object(Config\App))
+ 2 SYSTEMPATH\Helpers\url_helper.php(106): site_url(null, null, Object(Config\App))
+ 3 APPPATH\Controllers\Predict.php(18): base_url(null)
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Predict->option()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Predict))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 08:33:14 --> _get_uri(): Argument #1 ($relativePath) must be of type string, null given, called in C:\xampp\htdocs\proyekakhir\vendor\codeigniter4\framework\system\Helpers\url_helper.php on line 87
+in SYSTEMPATH\Helpers\url_helper.php on line 31.
+ 1 SYSTEMPATH\Helpers\url_helper.php(87): _get_uri(null, Object(Config\App))
+ 2 SYSTEMPATH\Helpers\url_helper.php(106): site_url(null, null, Object(Config\App))
+ 3 APPPATH\Controllers\Predict.php(18): base_url(null)
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Predict->option()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Predict))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 08:59:29 --> _get_uri(): Argument #1 ($relativePath) must be of type string, null given, called in C:\xampp\htdocs\proyekakhir\vendor\codeigniter4\framework\system\Helpers\url_helper.php on line 87
+in SYSTEMPATH\Helpers\url_helper.php on line 31.
+ 1 SYSTEMPATH\Helpers\url_helper.php(87): _get_uri(null, Object(Config\App))
+ 2 SYSTEMPATH\Helpers\url_helper.php(106): site_url(null, null, Object(Config\App))
+ 3 APPPATH\Controllers\Predict.php(18): base_url(null)
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Predict->option()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Predict))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 10:14:09 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 718.
+ 1 SYSTEMPATH\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\Neighbors.php(37): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Neighbors->create()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Neighbors))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 10:15:12 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 718.
+ 1 SYSTEMPATH\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\Neighbors.php(37): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Neighbors->create()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Neighbors))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 10:15:12 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 718.
+ 1 SYSTEMPATH\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\Neighbors.php(37): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Neighbors->create()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Neighbors))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 10:51:43 --> Attempt to read property "name" on array
+in APPPATH\Views\pages\dataset.php on line 44.
+ 1 APPPATH\Views\pages\dataset.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on array', 'APPPATH\\Views\\pages\\dataset.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\dataset.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/dataset', [], true)
+ 5 APPPATH\Controllers\Pages.php(31): view('pages/dataset', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->dataset()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 10:52:06 --> Attempt to read property "algortima" on array
+in APPPATH\Views\pages\dataset.php on line 45.
+ 1 APPPATH\Views\pages\dataset.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "algortima" on array', 'APPPATH\\Views\\pages\\dataset.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\dataset.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/dataset', [], true)
+ 5 APPPATH\Controllers\Pages.php(31): view('pages/dataset', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->dataset()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 10:59:34 --> Undefined property: App\Controllers\Pages::$model
+in APPPATH\Controllers\Pages.php on line 36.
+ 1 APPPATH\Controllers\Pages.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Pages::$model', 'APPPATH\\Controllers\\Pages.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->delete('1')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 11:30:02 --> _get_uri(): Argument #1 ($relativePath) must be of type string, null given, called in C:\xampp\htdocs\proyekakhir\vendor\codeigniter4\framework\system\Helpers\url_helper.php on line 87
+in SYSTEMPATH\Helpers\url_helper.php on line 31.
+ 1 SYSTEMPATH\Helpers\url_helper.php(87): _get_uri(null, Object(Config\App))
+ 2 SYSTEMPATH\Helpers\url_helper.php(106): site_url(null, null, Object(Config\App))
+ 3 APPPATH\Controllers\Predict.php(18): base_url(null)
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Predict->option()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Predict))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 14:18:54 --> Call to undefined function algoritma()
+in APPPATH\Views\pages\dashboard.php on line 52.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/dashboard', [], true)
+ 4 APPPATH\Controllers\Pages.php(19): view('pages/dashboard')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->dashboard()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 14:19:17 --> Attempt to read property "algoritma" on null
+in APPPATH\Views\pages\dashboard.php on line 52.
+ 1 APPPATH\Views\pages\dashboard.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "algoritma" on null', 'APPPATH\\Views\\pages\\dashboard.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/dashboard', [], true)
+ 5 APPPATH\Controllers\Pages.php(19): view('pages/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 14:19:18 --> Attempt to read property "algoritma" on null
+in APPPATH\Views\pages\dashboard.php on line 52.
+ 1 APPPATH\Views\pages\dashboard.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "algoritma" on null', 'APPPATH\\Views\\pages\\dashboard.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/dashboard', [], true)
+ 5 APPPATH\Controllers\Pages.php(19): view('pages/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 14:20:26 --> Attempt to read property "name" on null
+in APPPATH\Views\pages\dashboard.php on line 52.
+ 1 APPPATH\Views\pages\dashboard.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'APPPATH\\Views\\pages\\dashboard.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/dashboard', [], true)
+ 5 APPPATH\Controllers\Pages.php(19): view('pages/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 14:20:27 --> Attempt to read property "name" on null
+in APPPATH\Views\pages\dashboard.php on line 52.
+ 1 APPPATH\Views\pages\dashboard.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'APPPATH\\Views\\pages\\dashboard.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/dashboard', [], true)
+ 5 APPPATH\Controllers\Pages.php(19): view('pages/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 14:20:49 --> Attempt to read property "name" on null
+in APPPATH\Views\pages\dashboard.php on line 52.
+ 1 APPPATH\Views\pages\dashboard.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on null', 'APPPATH\\Views\\pages\\dashboard.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/dashboard', [], true)
+ 5 APPPATH\Controllers\Pages.php(19): view('pages/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 15:40:40 --> Method App\Controllers\Dataset::__callStatic() must take exactly 2 arguments
+in APPPATH\Controllers\Dataset.php on line 9.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-06-27 15:40:49 --> Cannot use object of type stdClass as array
+in APPPATH\Views\pages\dataset.php on line 47.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/dataset', [], true)
+ 4 APPPATH\Controllers\Dataset.php(14): view('pages/dataset', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Dataset->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataset))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 15:40:50 --> Cannot use object of type stdClass as array
+in APPPATH\Views\pages\dataset.php on line 47.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/dataset', [], true)
+ 4 APPPATH\Controllers\Dataset.php(14): view('pages/dataset', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Dataset->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataset))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 15:44:48 --> Undefined property: stdClass::$nameuser
+in APPPATH\Views\pages\dataset.php on line 48.
+ 1 APPPATH\Views\pages\dataset.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nameuser', 'APPPATH\\Views\\pages\\dataset.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\dataset.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/dataset', [], true)
+ 5 APPPATH\Controllers\Dataset.php(14): view('pages/dataset', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Dataset->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataset))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 15:44:49 --> Undefined property: stdClass::$nameuser
+in APPPATH\Views\pages\dataset.php on line 48.
+ 1 APPPATH\Views\pages\dataset.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nameuser', 'APPPATH\\Views\\pages\\dataset.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\dataset.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/dataset', [], true)
+ 5 APPPATH\Controllers\Dataset.php(14): view('pages/dataset', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Dataset->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataset))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 15:45:28 --> Undefined property: stdClass::$nameuser
+in APPPATH\Views\pages\dataset.php on line 48.
+ 1 APPPATH\Views\pages\dataset.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nameuser', 'APPPATH\\Views\\pages\\dataset.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\dataset.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/dataset', [], true)
+ 5 APPPATH\Controllers\Dataset.php(14): view('pages/dataset', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Dataset->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataset))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 15:45:29 --> Undefined property: stdClass::$nameuser
+in APPPATH\Views\pages\dataset.php on line 48.
+ 1 APPPATH\Views\pages\dataset.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nameuser', 'APPPATH\\Views\\pages\\dataset.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\dataset.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/dataset', [], true)
+ 5 APPPATH\Controllers\Dataset.php(14): view('pages/dataset', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Dataset->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataset))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 15:45:35 --> Undefined property: stdClass::$created_at
+in APPPATH\Views\pages\dataset.php on line 49.
+ 1 APPPATH\Views\pages\dataset.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$created_at', 'APPPATH\\Views\\pages\\dataset.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\dataset.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/dataset', [], true)
+ 5 APPPATH\Controllers\Dataset.php(14): view('pages/dataset', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Dataset->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataset))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 15:47:37 --> Undefined property: stdClass::$user
+in APPPATH\Views\pages\dataset.php on line 47.
+ 1 APPPATH\Views\pages\dataset.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$user', 'APPPATH\\Views\\pages\\dataset.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\dataset.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/dataset', [], true)
+ 5 APPPATH\Controllers\Dataset.php(14): view('pages/dataset', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Dataset->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataset))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 15:47:38 --> Undefined property: stdClass::$user
+in APPPATH\Views\pages\dataset.php on line 47.
+ 1 APPPATH\Views\pages\dataset.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$user', 'APPPATH\\Views\\pages\\dataset.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\dataset.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/dataset', [], true)
+ 5 APPPATH\Controllers\Dataset.php(14): view('pages/dataset', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Dataset->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataset))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 15:50:36 --> Undefined property: stdClass::$namefile
+in APPPATH\Views\pages\dataset.php on line 46.
+ 1 APPPATH\Views\pages\dataset.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$namefile', 'APPPATH\\Views\\pages\\dataset.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\dataset.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/dataset', [], true)
+ 5 APPPATH\Controllers\Dataset.php(14): view('pages/dataset', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Dataset->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataset))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 15:50:37 --> Undefined property: stdClass::$namefile
+in APPPATH\Views\pages\dataset.php on line 46.
+ 1 APPPATH\Views\pages\dataset.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$namefile', 'APPPATH\\Views\\pages\\dataset.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\dataset.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/dataset', [], true)
+ 5 APPPATH\Controllers\Dataset.php(14): view('pages/dataset', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Dataset->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataset))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 16:02:56 --> Cannot use object of type stdClass as array
+in APPPATH\Views\pages\history.php on line 55.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/history', [], true)
+ 4 APPPATH\Controllers\Pages.php(31): view('pages/history', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->history()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 16:03:42 --> Cannot use object of type stdClass as array
+in APPPATH\Views\pages\history.php on line 60.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/history', [], true)
+ 4 APPPATH\Controllers\Pages.php(31): view('pages/history', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->history()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 16:03:43 --> Cannot use object of type stdClass as array
+in APPPATH\Views\pages\history.php on line 60.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/history', [], true)
+ 4 APPPATH\Controllers\Pages.php(31): view('pages/history', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->history()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 16:03:54 --> Undefined property: stdClass::$id
+in APPPATH\Views\pages\history.php on line 60.
+ 1 APPPATH\Views\pages\history.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'APPPATH\\Views\\pages\\history.php', 60)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\history.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/history', [], true)
+ 5 APPPATH\Controllers\Pages.php(31): view('pages/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->history()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-06-27 16:13:37 --> Unknown column 'predicts.id_predict' in 'on clause'
+CRITICAL - 2022-06-27 16:13:37 --> Unknown column 'predicts.id_predict' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `predicts`.`id` as `idp`, `predicts`.`name` as `file`, `users`.`username` as `user`, `algoritma`, `results`.`name` as `result`, `predicts`.`created_at` as `create`
+FROM `predicts`
+JOIN `users` ON `users`.`id` = `predicts`.`id_user`
+JOIN `results` ON `results`.`id` = `predicts`.`id_predict`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `predicts`.`id` as `idp`, `predicts`.`name` as `file`, `users`.`username` as `user`, `algoritma`, `results`.`name` as `result`, `predicts`.`created_at` as `create`
+FROM `predicts`
+JOIN `users` ON `users`.`id` = `predicts`.`id_user`
+JOIN `results` ON `results`.`id` = `predicts`.`id_predict`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `predicts`.`id` as `idp`, `predicts`.`name` as `file`, `users`.`username` as `user`, `algoritma`, `results`.`name` as `result`, `predicts`.`created_at` as `create`
+FROM `predicts`
+JOIN `users` ON `users`.`id` = `predicts`.`id_user`
+JOIN `results` ON `results`.`id` = `predicts`.`id_predict`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `predicts`.`id` as `idp`, `predicts`.`name` as `file`, `users`.`username` as `user`, `algoritma`, `results`.`name` as `result`, `predicts`.`created_at` as `create`
+FROM `predicts`
+JOIN `users` ON `users`.`id` = `predicts`.`id_user`
+JOIN `results` ON `results`.`id` = `predicts`.`id_predict`', [], false)
+ 5 APPPATH\Models\PredictsModel.php(49): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Dataset.php(12): App\Models\PredictsModel->getAll()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Dataset->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataset))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 16:23:14 --> Undefined property: stdClass::$result
+in APPPATH\Views\pages\history.php on line 59.
+ 1 APPPATH\Views\pages\history.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$result', 'APPPATH\\Views\\pages\\history.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\history.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/history', [], true)
+ 5 APPPATH\Controllers\Pages.php(31): view('pages/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->history()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 16:27:10 --> Undefined property: stdClass::$result
+in APPPATH\Views\pages\history.php on line 59.
+ 1 APPPATH\Views\pages\history.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$result', 'APPPATH\\Views\\pages\\history.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\history.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/history', [], true)
+ 5 APPPATH\Controllers\Pages.php(31): view('pages/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->history()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 16:27:11 --> Undefined property: stdClass::$result
+in APPPATH\Views\pages\history.php on line 59.
+ 1 APPPATH\Views\pages\history.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$result', 'APPPATH\\Views\\pages\\history.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\history.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/history', [], true)
+ 5 APPPATH\Controllers\Pages.php(31): view('pages/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->history()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 16:30:14 --> Undefined property: stdClass::$result
+in APPPATH\Views\pages\history.php on line 59.
+ 1 APPPATH\Views\pages\history.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$result', 'APPPATH\\Views\\pages\\history.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\history.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/history', [], true)
+ 5 APPPATH\Controllers\Pages.php(31): view('pages/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->history()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 16:30:15 --> Undefined property: stdClass::$result
+in APPPATH\Views\pages\history.php on line 59.
+ 1 APPPATH\Views\pages\history.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$result', 'APPPATH\\Views\\pages\\history.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\history.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/history', [], true)
+ 5 APPPATH\Controllers\Pages.php(31): view('pages/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->history()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 16:30:15 --> Undefined property: stdClass::$result
+in APPPATH\Views\pages\history.php on line 59.
+ 1 APPPATH\Views\pages\history.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$result', 'APPPATH\\Views\\pages\\history.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\history.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/history', [], true)
+ 5 APPPATH\Controllers\Pages.php(31): view('pages/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->history()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-06-27 16:31:03 --> Unknown column 'predicts.id_predict' in 'on clause'
+CRITICAL - 2022-06-27 16:31:03 --> Unknown column 'predicts.id_predict' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `results`.`id` as `idr`, `results`.`name` as `result`, `algoritma`
+FROM `results`
+JOIN `predicts` ON `predicts`.`id_predict` = `results`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `results`.`id` as `idr`, `results`.`name` as `result`, `algoritma`
+FROM `results`
+JOIN `predicts` ON `predicts`.`id_predict` = `results`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `results`.`id` as `idr`, `results`.`name` as `result`, `algoritma`
+FROM `results`
+JOIN `predicts` ON `predicts`.`id_predict` = `results`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `results`.`id` as `idr`, `results`.`name` as `result`, `algoritma`
+FROM `results`
+JOIN `predicts` ON `predicts`.`id_predict` = `results`.`id`', [], false)
+ 5 APPPATH\Models\ResultModel.php(48): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Pages.php(29): App\Models\ResultModel->getAll()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->history()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-06-27 16:31:04 --> Unknown column 'predicts.id_predict' in 'on clause'
+CRITICAL - 2022-06-27 16:31:04 --> Unknown column 'predicts.id_predict' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `results`.`id` as `idr`, `results`.`name` as `result`, `algoritma`
+FROM `results`
+JOIN `predicts` ON `predicts`.`id_predict` = `results`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `results`.`id` as `idr`, `results`.`name` as `result`, `algoritma`
+FROM `results`
+JOIN `predicts` ON `predicts`.`id_predict` = `results`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `results`.`id` as `idr`, `results`.`name` as `result`, `algoritma`
+FROM `results`
+JOIN `predicts` ON `predicts`.`id_predict` = `results`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `results`.`id` as `idr`, `results`.`name` as `result`, `algoritma`
+FROM `results`
+JOIN `predicts` ON `predicts`.`id_predict` = `results`.`id`', [], false)
+ 5 APPPATH\Models\ResultModel.php(48): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Pages.php(29): App\Models\ResultModel->getAll()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->history()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 16:31:54 --> Undefined property: stdClass::$file
+in APPPATH\Views\pages\history.php on line 56.
+ 1 APPPATH\Views\pages\history.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$file', 'APPPATH\\Views\\pages\\history.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\history.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/history', [], true)
+ 5 APPPATH\Controllers\Pages.php(31): view('pages/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->history()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 16:31:54 --> Undefined property: stdClass::$file
+in APPPATH\Views\pages\history.php on line 56.
+ 1 APPPATH\Views\pages\history.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$file', 'APPPATH\\Views\\pages\\history.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\history.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/history', [], true)
+ 5 APPPATH\Controllers\Pages.php(31): view('pages/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->history()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 16:31:55 --> Undefined property: stdClass::$file
+in APPPATH\Views\pages\history.php on line 56.
+ 1 APPPATH\Views\pages\history.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$file', 'APPPATH\\Views\\pages\\history.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\history.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/history', [], true)
+ 5 APPPATH\Controllers\Pages.php(31): view('pages/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->history()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 16:32:19 --> Undefined property: stdClass::$user
+in APPPATH\Views\pages\history.php on line 58.
+ 1 APPPATH\Views\pages\history.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$user', 'APPPATH\\Views\\pages\\history.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\history.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/history', [], true)
+ 5 APPPATH\Controllers\Pages.php(31): view('pages/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->history()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 16:33:43 --> Undefined property: stdClass::$idp
+in APPPATH\Views\pages\history.php on line 59.
+ 1 APPPATH\Views\pages\history.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$idp', 'APPPATH\\Views\\pages\\history.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\history.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/history', [], true)
+ 5 APPPATH\Controllers\Pages.php(31): view('pages/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->history()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-06-27 16:36:44 --> Unknown column 'users.username as user predicts.name' in 'field list'
+CRITICAL - 2022-06-27 16:36:44 --> Unknown column 'users.username as user predicts.name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `results`.`id` as `idr`, `results`.`name` as `result`, `algoritma`, `users`.`username as user predicts`.`name` as `data`
+FROM `results`
+JOIN `predicts` ON `predicts`.`id` = `results`.`id_predict`
+JOIN `users` ON `users`.`id` = `predicts`.`id_user`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `results`.`id` as `idr`, `results`.`name` as `result`, `algoritma`, `users`.`username as user predicts`.`name` as `data`
+FROM `results`
+JOIN `predicts` ON `predicts`.`id` = `results`.`id_predict`
+JOIN `users` ON `users`.`id` = `predicts`.`id_user`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `results`.`id` as `idr`, `results`.`name` as `result`, `algoritma`, `users`.`username as user predicts`.`name` as `data`
+FROM `results`
+JOIN `predicts` ON `predicts`.`id` = `results`.`id_predict`
+JOIN `users` ON `users`.`id` = `predicts`.`id_user`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `results`.`id` as `idr`, `results`.`name` as `result`, `algoritma`, `users`.`username as user predicts`.`name` as `data`
+FROM `results`
+JOIN `predicts` ON `predicts`.`id` = `results`.`id_predict`
+JOIN `users` ON `users`.`id` = `predicts`.`id_user`', [], false)
+ 5 APPPATH\Models\ResultModel.php(49): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Pages.php(29): App\Models\ResultModel->getAll()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pages->history()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-06-27 16:46:09 --> Cannot add or update a child row: a foreign key constraint fails (`talent`.`predicts`, CONSTRAINT `predicts_ibfk_1` FOREIGN KEY (`id_user`) REFERENCES `users` (`id`))
+CRITICAL - 2022-06-27 16:46:09 --> Cannot add or update a child row: a foreign key constraint fails (`talent`.`predicts`, CONSTRAINT `predicts_ibfk_1` FOREIGN KEY (`id_user`) REFERENCES `users` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `predicts` (`name`, `algoritma`, `created_at`, `updated_at`) VALUES (\'check reviewer jurnal.xlsx\', \'randomforest\', \'2022-06-27\', \'2022-06-27\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `predicts` (`name`, `algoritma`, `created_at`, `updated_at`) VALUES (\'check reviewer jurnal.xlsx\', \'randomforest\', \'2022-06-27\', \'2022-06-27\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `predicts` (`name`, `algoritma`, `created_at`, `updated_at`) VALUES (\'check reviewer jurnal.xlsx\', \'randomforest\', \'2022-06-27\', \'2022-06-27\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `predicts` (`name`, `algoritma`, `created_at`, `updated_at`) VALUES (:name:, :algoritma:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Randomforest.php(36): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Randomforest->create()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Randomforest))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 23:16:38 --> Attempt to read property "username" on null
+in APPPATH\Views\layout\templates.php on line 34.
+ 1 APPPATH\Views\layout\templates.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', 'APPPATH\\Views\\layout\\templates.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\templates.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/templates', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/predict', [], true)
+ 6 APPPATH\Controllers\Predict.php(11): view('pages/predict')
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Predict->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Predict))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 23:16:45 --> Attempt to read property "username" on null
+in APPPATH\Views\layout\templates.php on line 34.
+ 1 APPPATH\Views\layout\templates.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', 'APPPATH\\Views\\layout\\templates.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\templates.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/templates', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/predict', [], true)
+ 6 APPPATH\Controllers\Predict.php(11): view('pages/predict')
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Predict->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Predict))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 23:38:28 --> LoginFilter filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 493.
+ 1 SYSTEMPATH\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('LoginFilter')
+ 2 SYSTEMPATH\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+ 3 SYSTEMPATH\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('user/edit')
+ 4 SYSTEMPATH\CodeIgniter.php(440): CodeIgniter\Filters\Filters->run('user/edit', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-27 23:38:29 --> LoginFilter filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 493.
+ 1 SYSTEMPATH\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('LoginFilter')
+ 2 SYSTEMPATH\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+ 3 SYSTEMPATH\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('user/edit')
+ 4 SYSTEMPATH\CodeIgniter.php(440): CodeIgniter\Filters\Filters->run('user/edit', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
